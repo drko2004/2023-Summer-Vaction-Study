@@ -9,5 +9,5 @@ if(isNaN(score) || age < 0){
 }	else if(score >= 70 && score > 80){
 	alert("C");
 } else {
-		alert("D");
+	alert("D");
 }
