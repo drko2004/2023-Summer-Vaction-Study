@@ -1,17 +1,13 @@
-const age = parseInt(prompt("How old?"));
-//console.log(typeof "15", typeof parseInt("15"));
-//console.log(isNaN(age));
+const score = parseInt(prompt("점수?"));
 
-//if(condition){
-	/// condition === true
-//} else {
-	// condition === false
-//}
-
-if(isNaN(age) || age < 0){
-	console.log("plz age");
-} else if(age < 18){
-	alert("cho ding");
+if(isNaN(score) || age < 0){
+	alert("숫자 입력...");
+} else if(score >= 90){
+	alert("A");
+} else if(score >= 80 && score > 90){
+	alert("B");
+}	else if(score >= 70 && score > 80){
+	alert("C");
 } else {
-	console.log("can drink");
+		alert("D");
 }
