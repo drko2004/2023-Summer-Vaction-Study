@@ -1,6 +1,6 @@
 const score = parseInt(prompt("점수?"));
 
-if(isNaN(score) || age < 0){
+if(isNaN(score) || score < 0){
 	alert("숫자 입력...");
 } else if(score >= 90){
 	alert("A");
